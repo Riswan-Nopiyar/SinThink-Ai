@@ -1,0 +1,26 @@
+.svelte-1k4ye9u h1 {
+    color: transparent !important; /* Membuat teks transparan */
+    background-image: linear-gradient(to right, #A435FFFF, #643BF6FF) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    font-family: "Inter", sans-serif !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 9999px !important;
+    display: inline-block !important;
+    box-shadow: 0 2px 4px rgba(73, 73, 73, 0.5) !important;
+    text-align: center !important;
+  }
+  
+  .svelte-1k4ye9u h1::before {
+    content: "⚡" !important;
+    font-size: 2rem !important;
+    color: #fbbf24 !important;
+    margin-right: 0.5rem;
+    display: inline-block !important;
+  }
+  
+  .embed-container.svelte-182fdeq.svelte-182fdeq {
+    border: none !important;
+  }

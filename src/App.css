@@ -1,0 +1,50 @@
+/* src/App.css */
+
+@keyframes slow-spin-left {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(-360deg); /* Ubah arah rotasi ke kiri (negatif) */
+  }
+}
+
+.animate-spin-slow-left {
+  animation: slow-spin-left 700ms linear infinite;
+}
+
+.animate-marquee {
+  display: flex;
+  white-space: nowrap; /* Prevent wrapping */
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+      transform: translateX(100%); /* Mulai dari luar layar kanan */
+  }
+  100% {
+      transform: translateX(-100%); /* Berhenti di luar layar kiri */
+  }
+}
+
+@keyframes sway {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(12px);
+  }
+}
+
+.sway {
+  animation: sway 1.5s ease-in-out infinite;
+}
+
+/* Gradient untuk Loading Bar */
+.loading-bar-gradient {
+  background: linear-gradient(to right, #7C3AED, #2563EB); /* from-purple-600 to-blue-600 */
+}
+
+
+
