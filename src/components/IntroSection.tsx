@@ -21,22 +21,21 @@ const IntroSection = () => {
               <h1 className="text-black dark:text-white text-3xl font-extrabold sm:text-5xl xl:text-heading-1 pb-2">
                 SinThink Ai
               </h1>
-              <h1 className="bg-gradient-to-r from-purple-600 to-blue-600 dark:bg-gradient-to-r dark:from-purple-700 dark:to-blue-700 text-transparent bg-clip-text mb-6 text-3xl font-extrabold sm:text-5xl xl:text-heading-1 pb-2 inline-flex items-center">
-                Ai Image Generator
+              <span className="bg-gradient-to-r from-purple-600 to-blue-600 dark:bg-gradient-to-r dark:from-purple-700 dark:to-blue-700 text-transparent bg-clip-text mb-6 text-3xl font-extrabold sm:text-5xl xl:text-heading-1 pb-2 inline-flex items-center">
+                <span className="text-green-700 dark:text-green-500 bg-green-400/50 dark:bg-green-700/50 mr-3 pb-1 px-3 rounded-lg">Free </span> Ai Tools
                 <img
                   src={iconMegic}
                   alt="AI Icon"
                   className="ml-2"
                   width={50}
                 />
-              </h1>
+              </span>
 
               {/* Description Text */}
-              <p className="max-w-[500px] xs:mx-auto  mb-9 font-medium text-lg md:text-lg text-gray-600 dark:text-gray-400">
-                Use SDXL Flash AI to instantly turn text prompts into
-                high-quality images for websites, social media, and more. It's
-                perfect for fast-paced projects that require quick, unique
-                visuals.
+              <p className="max-w-[500px] xs:mx-auto  mb-9 font-medium text-md md:text-lg text-gray-600 dark:text-gray-400">
+              experience free and fast AI solutions designed to boost productivity.
+              Leverage cutting-edge AI tools to convert your text prompts into stunning visuals,
+              Ideal for  demanding swift and effective outcomes.
               </p>
 
               {/* Call to Action Button */}

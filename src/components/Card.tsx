@@ -7,7 +7,7 @@ interface CardProps {
   categories: string[];
   description: string;
   link: string;
-  Icon: IconType; // Menggunakan tipe dari React Icons
+  Icon: IconType;
 }
 
 const Card: React.FC<CardProps> = ({ title, categories, description, link, Icon }) => {

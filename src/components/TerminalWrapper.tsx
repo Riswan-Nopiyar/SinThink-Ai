@@ -39,7 +39,7 @@ const TerminalWrapper = () => {
   >
     <div className="max-w-6xl mx-auto space-y-6">
     <div className="flex flex-col justify-center items-center mb-9 mt-6">
-  <h1 className="text-center text-3xl font-bold">Installing Locally</h1>
+  <h1 className="text-center text-3xl font-bold dark:text-white">Installing Locally</h1>
   <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1418 125"
