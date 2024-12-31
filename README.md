@@ -1,4 +1,5 @@
 # SinThink Ai
+SinThink Ai adalah kumpulan bebera Ai yang dibuka untuk umum oleh pengembangnya, dan saya kemudian  tampilan modern sebagai alat yang memudahkan pengguna. penamaan website tersebut hanyalah lelucon dan multi tafsir bahasa inggris dan indonesia. di bahasa inggris (Sin Think = dosa berpikir) , penyebutannya mirip di bahasa indonesia (Sinting = Tidak waras) 
 <hr/>
 
 # HomePage
