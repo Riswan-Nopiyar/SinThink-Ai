@@ -23,7 +23,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   }, [location]);
 
   return (
-    <div className="mt-0 pt-16 bg-gradient-to-t from-white via-[#F6EAFFFF] to-[#E5DEFFFF] text-gray-800 dark:bg-gradient-to-t dark:from-[#10141B] dark:via-[#0B1016] dark:to-[#280D3D]">
+    <div className="min-h-screen mt-0 pt-16 bg-gradient-to-t from-white via-[#F6EAFFFF] to-[#E5DEFFFF] text-gray-800 dark:bg-gradient-to-t dark:from-[#10141B] dark:via-[#0B1016] dark:to-[#280D3D]">
       <LoadingBar color="#C300FFFF" ref={loadingBarRef} height={5} />
       <Navbar />
       <main className="mt-16">{children}</main>

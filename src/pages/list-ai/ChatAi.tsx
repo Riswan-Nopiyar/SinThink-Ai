@@ -5,7 +5,7 @@ import ServiceChat from "../../components/services/ChatService";
 import Layout from "../../layouts/Layout";
 import { getCurrentTheme } from "../../utils/themeUtils";
 
-const SdxlFlash: React.FC = () => {
+const ChatAi: React.FC = () => {
   useEffect(() => {
     const theme = getCurrentTheme(); // Ambil tema saat ini (light/dark)
 
@@ -26,4 +26,4 @@ const SdxlFlash: React.FC = () => {
   );
 };
 
-export default SdxlFlash;
+export default ChatAi;

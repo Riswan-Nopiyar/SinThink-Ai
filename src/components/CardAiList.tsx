@@ -29,7 +29,7 @@ const CardAiList: React.FC = () => {
   ];
 
   return (
-    <div className="container h-full min-h-screen mx-auto px-4 sm:px-6 md:px-8 lg:px-52">
+    <div className="container h-full mb-16 mx-auto px-4 sm:px-6 md:px-8 lg:px-52">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {cardData.map((card, index) => (
           <Card key={index} {...card} />

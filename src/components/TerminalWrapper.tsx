@@ -35,7 +35,7 @@ const TerminalWrapper = () => {
   return (
     <div
     id="howToInstall"
-    className="terminal-custom-card p-4 overflow-hidden border border-gray-300 dark:border-gray-700 rounded-lg bg-gray-100/50 dark:bg-gray-800/50 backdrop-blur-sm"
+    className="container terminal-custom-card p-4 m-auto overflow-hidden border border-gray-300 dark:border-gray-700 rounded-lg bg-gray-100/50 dark:bg-gray-800/50 backdrop-blur-sm"
   >
     <div className="max-w-6xl mx-auto space-y-6">
     <div className="flex flex-col justify-center items-center mb-9 mt-6">

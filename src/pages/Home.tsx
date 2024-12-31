@@ -1,7 +1,9 @@
 import React from 'react';
-import IntroSection from '../components/IntroSection';
 import Layout from '../layouts/Layout';
 import { ToastContainer } from 'react-toastify';
+import IntroSection from '../components/IntroSection';
+import CardAiList from '../components/CardAiList';
+import TerminalWrapper from '../components/TerminalWrapper';
 
 const Home: React.FC = () => {
   return (
@@ -13,7 +15,9 @@ const Home: React.FC = () => {
        pauseOnHover 
        />
     <Layout>
-      <IntroSection/>
+      <IntroSection />
+      <CardAiList />
+      <TerminalWrapper />
     </Layout>
     </>
   );

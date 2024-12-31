@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import LINK from "../../config/Link";
 import { applyTheme, getCurrentTheme } from "../../utils/themeUtils";
+import LogoAi from '../../assets/ai-logo-192x192.png';
 import './image.css';
 
 const ImageService = () => {
@@ -76,7 +77,11 @@ const ImageService = () => {
           </span>
           
 
-          
+  <div className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+              <img src={LogoAi} className="h-8" alt="Flowbite Logo" />
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SinThink Image</span>
+              <small className="text-gray-600">&#40; 15 sec &#41;</small>
+            </div>
 
           {/* Loading Spinner (Visible during waiting period) */}
           {isLoading && (

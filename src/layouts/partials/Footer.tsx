@@ -11,9 +11,6 @@ const Footer = () => {
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SinThink.Ai</span>
             </a>
           </div>
-          
-
-       
           <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © {currentYear}{" "}
             <a href="https://www.nopiyar.my.id/p/riswan-nopiyar.html" className="hover:underline">Riswan Nopiyar</a>. All Rights Reserved.

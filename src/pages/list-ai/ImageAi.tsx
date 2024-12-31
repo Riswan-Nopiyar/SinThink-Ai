@@ -5,7 +5,7 @@ import ServicesImage from "../../components/services/ImageService";
 import Layout from "../../layouts/Layout";
 import { getCurrentTheme } from "../../utils/themeUtils";
 
-const Image: React.FC = () => {
+const ImageAi: React.FC = () => {
   useEffect(() => {
     const theme = getCurrentTheme(); // Ambil tema saat ini (light/dark)
 
@@ -26,4 +26,4 @@ const Image: React.FC = () => {
   );
 };
 
-export default Image;
+export default ImageAi;

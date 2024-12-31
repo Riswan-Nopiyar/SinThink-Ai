@@ -1,6 +1,5 @@
 import iconMegic from "../assets/magic-wand.svg";
 import poitingRight from "../assets/pointing-right.svg";
-import TerminalWrapper from "./TerminalWrapper";
 import beachImg from "../assets/beach.webp";
 import farmerImg from "../assets/man-farmer.webp";
 import astronautImg from "../assets/astronaut.webp";
@@ -142,7 +141,6 @@ const IntroSection = () => {
     </svg>
         </div>
       </div>
-      <TerminalWrapper />
     </section>
   );
 };
