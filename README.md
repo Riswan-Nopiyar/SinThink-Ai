@@ -1,6 +1,6 @@
 # SinThink Ai ✨
 
-SinThink Ai is a collection of several Ai that were opened to the public by the developer, and then I just made this UI for fun. The naming of the website is just a joke and has multiple interpretations in English and Indonesian. in English <b>(Sin Think = <i>Dosa Berpikir</i>)</b>, the pronunciation is similar in Indonesian <b>(<i>Sinting</i> = insane)</b> 
+SinThink Ai is a collection of several Ai that were opened to the public by the developer, and then I just made this UI for fun. The naming of the website is just a joke and has multiple interpretations in English and Indonesian. in English <b>(Sin Think = <i>Dosa Berpikir</i>)</b>, the pronunciation is similar in Indonesian <b>(<i>Sinting</i> = insane)</b> 😌
 <hr/>
 
 # HomePage
