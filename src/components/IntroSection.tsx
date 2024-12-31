@@ -17,7 +17,7 @@ const IntroSection = () => {
           <div className="mx-auto mb-6 max-w-[900px] px-4 sm:px-8 xl:px-0 relative">
             <div className="text-center md:text-start md:ml-11">
               {/* Title */}
-              <h1 className="text-black dark:text-white text-3xl font-extrabold sm:text-5xl xl:text-heading-1 pb-2">
+              <h1 className="text-black dark:text-white text-4xl font-extrabold sm:text-5xl xl:text-heading-1 pb-2">
                 SinThink Ai
               </h1>
               <span className="bg-gradient-to-r from-purple-600 to-blue-600 dark:bg-gradient-to-r dark:from-purple-700 dark:to-blue-700 text-transparent bg-clip-text mb-6 text-3xl font-extrabold sm:text-5xl xl:text-heading-1 pb-2 inline-flex items-center">
