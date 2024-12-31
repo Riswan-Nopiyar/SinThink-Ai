@@ -1,50 +1,16 @@
-# React + TypeScript + Vite
+# SinThink Ai ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SinThink Ai is a collection of several Ai that were opened to the public by the developer, and then I just made this UI for fun. The naming of the website is just a joke and has multiple interpretations in English and Indonesian. in English <b>(Sin Think = <i>Dosa Berpikir</i>)</b>, the pronunciation is similar in Indonesian <b>(<i>Sinting</i> = insane)</b> 😌
+<hr/>
 
-Currently, two official plugins are available:
+# HomePage
+![screencapture-localhost-5173-2024-12-30-23_52_59](https://github.com/user-attachments/assets/b6ef3a8b-ccf2-4b67-ac3c-794f36edac2d)
+<hr/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Image Ai
 
-## Expanding the ESLint configuration
+![screencapture-localhost-5173-list-ai-service-image-2024-12-31-00_47_23](https://github.com/user-attachments/assets/40b9f96e-bd0d-45ea-8056-d20d353ad748)
+<hr/>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+# Chat Ai
+![screencapture-localhost-5173-list-ai-service-chat-2024-12-30-22_49_47](https://github.com/user-attachments/assets/679625a3-d729-4ada-8ae0-3975b9c87df8)
