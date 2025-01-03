@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import LogoAi from "../../assets/ai-logo-192x192.png";
 import { BiSun, BiMoon } from "react-icons/bi";
 import { HiMenu } from "react-icons/hi";
+import { Link } from "react-router-dom";
 import {
   toggleTheme,
   getCurrentTheme,
@@ -57,43 +58,40 @@ const Navbar = () => {
         {/* Grup Kiri: Logo dan Nama Brand */}
         <div className="flex items-center space-x-2">
           <img src={LogoAi} alt="Left Logo" className="w-8 h-8" />
-          <a
-            href="/#home"
+          <Link
+            to="/#home"
             className="text-2xl font-bold text-gray-800 dark:text-white"
             aria-label="Go to homepage"
           >
             SinThink.Ai
-          </a>
+          </Link>
         </div>
 
         {/* Grup Kanan: Navigation */}
         <ul className="hidden md:flex space-x-6 ml-auto">
           <li>
-            <a
-              href="/"
+            <Link
+              to="/"
               className="text-gray-800 hover:text-purple-500 dark:text-white dark:hover:text-purple-400 transition"
-              aria-label="Go to Home section"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/list-ai"
+            <Link
+              to="/list-ai"
               className="text-gray-800 hover:text-purple-500 dark:text-white dark:hover:text-purple-400 transition"
-              aria-label="Go to List Ai page"
             >
               List Ai
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="/install"
+            <Link
+              to="/install"
               className="text-gray-800 hover:text-purple-500 dark:text-white dark:hover:text-purple-400 transition"
-              aria-label="Go to Install section"
             >
               Install
-            </a>
+            </Link>
           </li>
         </ul>
 
@@ -130,27 +128,24 @@ const Navbar = () => {
           id="mobile-menu"
           className="bg-gradient-to-r from-purple-500/50 to-blue-500/50 dark:bg-gray-800/20 backdrop-blur-3xl md:hidden absolute top-15 right-0 w-48 font-bold text-gray-800 dark:text-white py-4 px-6 space-y-4 shadow-lg rounded-lg"
         >
-          <a
-            href="/"
+          <Link
+            to="/"
             className="block hover:text-purple-500 dark:hover:text-purple-400 transition"
-            aria-label="Go to Home section"
           >
             Home
-          </a>
-          <a
-            href="/list-ai"
+          </Link>
+          <Link
+            to="/list-ai"
             className="block hover:text-purple-500 dark:hover:text-purple-400 transition"
-            aria-label="Go to List Ai page"
           >
             List Ai
-          </a>
-          <a
-            href="/install"
+          </Link>
+          <Link
+            to="/install"
             className="block hover:text-purple-500 dark:hover:text-purple-400 transition"
-            aria-label="Go to Services section"
           >
             Install
-          </a>
+          </Link>
         </div>
       )}
     </nav>

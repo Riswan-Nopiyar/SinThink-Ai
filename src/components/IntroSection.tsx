@@ -4,6 +4,7 @@ import beachImg from "../assets/beach.webp";
 import farmerImg from "../assets/man-farmer.webp";
 import astronautImg from "../assets/astronaut.webp";
 import blueHairImg from "../assets/girl-blue-hair.webp";
+import { Link } from "react-router-dom";
 
 const IntroSection = () => {
   return (
@@ -46,8 +47,8 @@ const IntroSection = () => {
                   className="w-20 sway"
                 />
                 {/* Tombol Get Started */}
-                <a
-                  href="/list-ai"
+                <Link
+                  to="/list-ai"
                   className="group transform transition-transform duration-300 hover:scale-110 p-[4px] rounded-[12px] bg-gradient-to-b from-white to-stone-200/40 dark:from-gray-800 dark:to-gray-900 text-white shadow-lg hover:shadow-xl inline-block"
                 >
                   <div className="bg-gradient-to-b from-stone-200/40 to-white/80 dark:from-gray-700 dark:to-gray-800 rounded-[8px] px-4 py-2">
@@ -57,7 +58,7 @@ const IntroSection = () => {
                       </span>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
