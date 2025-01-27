@@ -9,9 +9,9 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate', // Service worker otomatis update jika ada perubahan
       manifest: {
-        name: 'Nama Aplikasi Anda',
-        short_name: 'Aplikasi',
-        description: 'Deskripsi singkat aplikasi Anda',
+        name: 'SinThink AI',
+        short_name: 'SinThink AI',
+        description: 'experience free and fast AI solutions designed to boost productivity',
         theme_color: '#000000', // Warna tema aplikasi
         background_color: '#000000', // Warna latar belakang splash screen
         icons: [
